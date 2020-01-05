@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="SamsaraSoftware Systems - Eclipse Repository" url="http://www.samsarasoftwaresystems.com/eclipse/repository">
+      SamsaraSoftware Systems - Eclipse Repository
+   </description>
+   <feature url="features/net.samsarasoftware.feature_0.2.0.qualifier.jar" id="net.samsarasoftware.feature" version="0.2.0.qualifier"/>
+</site>
