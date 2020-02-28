@@ -2,7 +2,7 @@
 <feature
       id="net.samsarasoftware.feature"
       label="SamsaraSoftware systems - Metamodels and constraints"
-      version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.qualifier">
+      version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}">
 
    <description>
       SamsaraSoftware systems - Metamodels and constraints
