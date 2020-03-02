@@ -30,7 +30,7 @@
 				<executions>
 					<execution>
 						<id>parse-version</id>
-						<phase>pre-clean</phase>
+						<phase>clean</phase>
 						<goals>
 							<goal>parse-version</goal>
 						</goals>
@@ -43,13 +43,13 @@
 				<executions>
 					<execution>
 						<id>resources</id>
-						<phase>pre-clean</phase>
+						<!-- here the phase you need -->
+						<phase>clean</phase>
 						<goals>
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
 							<outputDirectory>src/main/resources</outputDirectory>
-							<outputDirectory>${basedir}</outputDirectory>
 							<resources>
 								<resource>
 									<directory>src/main/filtered-resources</directory>
@@ -59,10 +59,9 @@
 							</resources>
 						</configuration>
 					</execution>
-
-
 				</executions>
 			</plugin>
+
 
 			<!-- <plugin> <artifactId>maven-clean-plugin</artifactId> <version>3.0.0</version> 
 				<configuration> <filesets> <fileset> <directory>features</directory> <directory>plugins</directory> 

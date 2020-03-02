@@ -3,5 +3,5 @@
    <description name="SamsaraSoftware Systems - Eclipse Repository" url="http://www.samsarasoftwaresystems.com/eclipse/repository">
       SamsaraSoftware Systems - Eclipse Repository
    </description>
-   <feature url="features/net.samsarasoftware.feature_${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.qualifier.jar" id="net.samsarasoftware.feature" version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.qualifier"/>
+   <feature url="features/net.samsarasoftware.feature_${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.jar" id="net.samsarasoftware.feature" version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}"/>
 </site>
