@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>net.samsarasoftware</groupId>
 	<artifactId>net.samsarasoftware.eclipse</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<repositories>
 		<repository>
@@ -56,7 +56,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/perelengo/net.samsarasoftware.eclipse.git</developerConnection>
-	  <tag>net.samsarasoftware.eclipse-0.2.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<distributionManagement>
 		<repository>

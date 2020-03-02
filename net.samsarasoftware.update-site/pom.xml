@@ -4,18 +4,18 @@
 	<parent>
 		<groupId>net.samsarasoftware</groupId>
 		<artifactId>net.samsarasoftware.eclipse</artifactId>
-		<version>0.2.0</version>
+		<version>0.2.1-SNAPSHOT</version>
 	</parent>
 	<groupId>net.samsarasoftware.eclipse</groupId>
 	<artifactId>net.samsarasoftware.update-site</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.1-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.samsarasoftware.eclipse</groupId>
 			<artifactId>net.samsarasoftware.feature</artifactId>
-			<version>0.2.0</version>
+			<version>0.2.1-SNAPSHOT</version>
 			<type>eclipse-feature</type>
 		</dependency>
 	</dependencies>
