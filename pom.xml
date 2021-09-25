@@ -55,7 +55,7 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/perelengo/net.samsarasoftware.eclipse.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:perelengo/net.samsarasoftware.eclipse.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	<distributionManagement>
